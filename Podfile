@@ -5,6 +5,10 @@ target 'Rxswift_mvvm' do
     pod 'RxCocoa'
     pod 'RxDataSources'
     pod 'MJRefresh'
-
+    pod 'Kingfisher'
+    pod 'SnapKit'
+    pod 'ObjectMapper'
+    pod 'Alamofire'
+    
 end
 
