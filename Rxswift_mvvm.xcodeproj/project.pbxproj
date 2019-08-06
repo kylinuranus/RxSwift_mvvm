@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		913E206DFBBE1D3D84287B57 /* Pods_Rxswift_mvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B13310E8E8AA71D3F8A1A8 /* Pods_Rxswift_mvvm.framework */; };
+		F1116E5022F84FCF00590871 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1116E4F22F84FCF00590871 /* HomeViewModel.swift */; };
+		F1116E5222F8526400590871 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1116E5122F8526400590871 /* HomeModel.swift */; };
 		F1A783F422F413B2001139BC /* DotaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A783EF22F413B2001139BC /* DotaTableViewCell.swift */; };
 		F1A783F522F413B2001139BC /* DotaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A783F022F413B2001139BC /* DotaTableViewCell.xib */; };
 		F1A783F622F413B2001139BC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A783F222F413B2001139BC /* HomeViewController.xib */; };
@@ -43,6 +45,8 @@
 		1447CDBFC9211AF41E599AF6 /* Pods-Rxswift_mvvm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_mvvm.release.xcconfig"; path = "Target Support Files/Pods-Rxswift_mvvm/Pods-Rxswift_mvvm.release.xcconfig"; sourceTree = "<group>"; };
 		74B13310E8E8AA71D3F8A1A8 /* Pods_Rxswift_mvvm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rxswift_mvvm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE92419A02D0EAF7ED9008D3 /* Pods-Rxswift_mvvm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_mvvm.debug.xcconfig"; path = "Target Support Files/Pods-Rxswift_mvvm/Pods-Rxswift_mvvm.debug.xcconfig"; sourceTree = "<group>"; };
+		F1116E4F22F84FCF00590871 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F1116E5122F8526400590871 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		F1A783EF22F413B2001139BC /* DotaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotaTableViewCell.swift; sourceTree = "<group>"; };
 		F1A783F022F413B2001139BC /* DotaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DotaTableViewCell.xib; sourceTree = "<group>"; };
 		F1A783F222F413B2001139BC /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 		F1A783EC22F413B2001139BC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F1116E4F22F84FCF00590871 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 		F1A783ED22F413B2001139BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F1116E5122F8526400590871 /* HomeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -390,7 +396,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A783FF22F43FB6001139BC /* requestData.swift in Sources */,
+				F1116E5022F84FCF00590871 /* HomeViewModel.swift in Sources */,
 				F1CB320E22F1B61E00A8EA02 /* ViewController.swift in Sources */,
+				F1116E5222F8526400590871 /* HomeModel.swift in Sources */,
 				F1A783F422F413B2001139BC /* DotaTableViewCell.swift in Sources */,
 				F1CB320C22F1B61E00A8EA02 /* AppDelegate.swift in Sources */,
 				F1A783F722F413B2001139BC /* HomeViewController.swift in Sources */,
