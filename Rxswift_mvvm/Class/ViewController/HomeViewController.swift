@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         bindUI()
-        print("1111")
+        print("1112221")
 
     }
     
